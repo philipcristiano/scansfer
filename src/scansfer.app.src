@@ -1,0 +1,24 @@
+{application, scansfer, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {scansfer_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        sasl,
+        logger,
+        uuid,
+        qdate,
+        hackney,
+        opentelemetry,
+        opentelemetry_telemetry,
+        opentelemetry_process_propagator,
+        telemetry
+    ]},
+    {env, []},
+    {modules, []},
+
+    {licenses, []},
+    {links, []}
+]}.

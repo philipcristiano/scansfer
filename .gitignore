@@ -1,3 +1,11 @@
+# App
+.env
+local.config
+ebin/
+*.d
+/priv/public/
+/_rel
+
 .eunit
 *.o
 *.beam
@@ -15,3 +23,13 @@ deps
 .rebar3
 _build/
 _checkouts/
+
+# erlang.mk
+.erlang.mk
+
+# NodeJS
+node_modules
+build
+
+/tmp
+
